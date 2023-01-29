@@ -1,0 +1,110 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(240, 233, 220);
+}
+.container{
+   display: flex;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    width: fit-content;
+    transform:  translate(-50%,-50%); 
+    background-color: white;
+     border: white .5px solid ;
+    border-radius: 5%;
+}
+
+img{
+    border-radius: 5% 0 0 5%;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 5%;
+    height: 100%;
+    width: 50%; 
+}
+
+.title{
+    letter-spacing: 2px;
+    color: rgb(181, 177, 177);
+    font-family: "Montserrat";
+}
+
+h1{
+    font-family: "Fraunces";
+}
+p{
+    color: rgb(181, 177, 177);
+}
+.salary{
+    font-family: "Fraunces";
+    color:hsl(158, 36%, 37%) ;
+}
+h1 del{
+    color: rgb(181, 177, 177); ;
+    font-size: small;
+    font-family: "Montserrat";
+    font-weight: lighter;
+    margin-left: 10%;
+}
+.submit-btn{
+    padding: 5%;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    font-family:"Montserrat" ;
+    font-weight: bolder;
+    color: white;
+    background-color:hsl(158, 39%, 45%) ;
+    border: none;
+}
+.submit-btn:hover{
+    background-color:hsl(158, 36%, 37%) ;
+}
+
+footer{
+    position: fixed;
+    left: 40%;
+    bottom: 0;
+    text-align: center;
+    color:hsl(30, 4%, 57%) ;
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
